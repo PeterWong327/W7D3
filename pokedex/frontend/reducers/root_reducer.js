@@ -3,7 +3,7 @@ import entitiesReducer from './entities_reducer';
 // import uiReducer from './ui_reducer';
 
 const rootReducer = combineReducers({
-  entities: entitiesReducer,
+  entities: entitiesReducer, // {pokemon: action.pokemon}
   // ui: uiReducer,
 });
 
